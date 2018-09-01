@@ -1,10 +1,190 @@
+/* @font-face {
+    font-family: 'CerealBold';
+    src: url('./styles/Cereal/AirbnbCereal-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'CerealBook';
+    src: url('./styles/Cereal/AirbnbCereal-Book.ttf');
+}
+
+@font-face {
+    font-family: 'CerealLight';
+    src: url('./styles/Cereal/AirbnbCereal-Light.ttf');
+} */
+
 .header {
     display: inline-block;
-    padding-left: 10px;
+    position:relative;
+    margin-right:17px;
+    /* padding-left: 13px; */
+    /* font-family: 'CerealBold'; */
+}
+
+.personInfo {
+    margin-top: -70px;
+    margin-left:65px;
+    margin-bottom:-17px;
+}
+
+.username {
+    font-size:17px;
+    margin-bottom:-10px;
+}
+
+.date {
+    font-size:14px;
+}
+
+.revImg {
+    /* display:inline-block; */
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+}
+
+.stuff {
+    margin-top:7px;
+    display: inline-block;
+    margin-bottom:2px;
 }
 
 .header2 {
+    /* margin-bottom:-26px;
+    position: relative;
+    display: inline-block;  */
+    margin-left:40px; 
+}
+
+.header {
+    display:inline-block;
+}
+
+.input {
+    display:inline-block;
+    margin-left: 13%;
+    padding:7px;
+    width: 40%;
+}
+
+.container {
+    margin-top:6px;
+    /* text-align: center; */
+}
+
+.hr {
+    margin-top:6px;
+}
+
+.h4Acc {
+    font-size: 18px;
+    display:inline-block;
+    margin-bottom: -100px;
+}
+
+.Accuracy {
+    margin-bottom :10px;
+    display:inline-block;
+}
+
+.h4Com {
+    margin-top:8px;
+    font-size: 18px;
+    display:inline-block;
+    margin-bottom: -100px;
+}
+
+.Communication {
+    margin-bottom:10px;
+    display:inline-block;
+}
+
+.h4Clen {
+    margin-top:8px;
+    font-size: 18px;
+    display:inline-block;
+}
+
+.Cleanliness {
+    /* margin-left:10px; */
+    display:inline-block;
+}
+
+.col1 {
+    margin-top:-16px;
     display: inline-block;
-    margin-left:20px;
-    border-radius: 2px;
+    text-align:left;
+}
+
+.col2 {
+    margin-top:-16px;
+    /* margin-top:-10px; */
+    margin-left: 15%;
+    display:inline-block;
+}
+
+.col3 {
+    margin-top:-16px;
+    margin-left:4%;
+    display: inline-block;
+    text-align:left;
+}
+
+.col4 {
+    margin-top:-16px;
+    /* margin-top:-10px; */
+    margin-left: 18%;
+    display:inline-block;
+}
+
+.h4Loc {
+    font-size: 18px;
+    display:inline-block;
+    margin-bottom: -100px;
+}
+
+.Location {
+    margin-bottom :10px;
+    display:inline-block;
+}
+
+.h4Chec {
+    margin-top:8px;
+    font-size: 18px;
+    display:inline-block;
+    margin-bottom: -100px;
+}
+
+.Check-in {
+    margin-bottom:10px;
+    display:inline-block;
+}
+
+.h4Value {
+    margin-top:8px;
+    font-size: 18px;
+    display:inline-block;
+}
+
+.Value {
+    /* margin-left:10px; */
+    display:inline-block;
+}
+
+.d {
+    margin-top:-20px;
+}
+
+.revlist {
+    margin-top:-26px;
+    display:inline-block;
+    width:42.2%;
+    margin-left:29%;
+    /* align: center; */
+    /* margin-left:29%;
+    margin-right:29%; */
+}
+
+.rev {
+    text-align:left;
 }

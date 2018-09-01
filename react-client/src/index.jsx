@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import $ from 'jquery';
 import Reviews from './components/Reviews.jsx';
 import './Styles.css';
-
+import Review from './components/Review.jsx';
+console.log(Review)
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -28,9 +29,13 @@ class App extends React.Component {
 
   render () {
     return (<div>
+              <div className="revlist" >
         <Reviews />
-      
-    </div>)
+        <div classname="d">
+        <Review />
+        </div>
+        </div>
+      </div>)
   }
 }
 
