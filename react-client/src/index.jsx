@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import $ from 'jquery';
-import List from './components/List.jsx';
+import Reviews from './components/Reviews.jsx';
+import './Styles.css';
 
 class App extends React.Component {
   constructor(props) {
@@ -27,8 +28,8 @@ class App extends React.Component {
 
   render () {
     return (<div>
-      <h1>Item List</h1>
-      <List items={this.state.items}/>
+        <Reviews />
+      
     </div>)
   }
 }
