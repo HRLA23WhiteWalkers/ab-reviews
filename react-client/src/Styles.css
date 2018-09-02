@@ -24,7 +24,7 @@
 .personInfo {
     margin-top: -70px;
     margin-left:65px;
-    margin-bottom:-17px;
+    margin-bottom:-13px;
 }
 
 .username {
@@ -68,7 +68,7 @@
 }
 
 .container {
-    margin-top:6px;
+    margin-top:26px;
     /* text-align: center; */
 }
 
@@ -128,12 +128,13 @@
     margin-left:4%;
     display: inline-block;
     text-align:left;
+
 }
 
 .col4 {
     margin-top:-16px;
     /* margin-top:-10px; */
-    margin-left: 18%;
+    margin-left: 17%;
     display:inline-block;
 }
 
@@ -187,4 +188,31 @@
 
 .rev {
     text-align:left;
+}
+
+ul li {
+    margin-left: 50px;
+    list-style-type: none; 
+    display:inline-block;
+    color: '#00A699';
+}
+
+ul {
+    margin-left: -80px;
+    color: '#00A699';
+}
+
+li {
+    color: '#00A699';
+}
+
+.num:hover {
+    cursor:pointer;
+    text-decoration: underline;
+}
+
+.num {
+    border: solid 3px '#00A699';
+    border-radius: 50%;
+    color:'#00A699';
 }

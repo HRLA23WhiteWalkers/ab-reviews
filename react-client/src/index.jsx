@@ -31,7 +31,7 @@ class App extends React.Component {
     return (<div>
               <div className="revlist" >
         <Reviews />
-        <div classname="d">
+        <div className="d">
         <Review />
         </div>
         </div>
