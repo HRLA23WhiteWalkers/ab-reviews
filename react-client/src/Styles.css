@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
     font-family: 'CerealBold';
     src: url('./styles/Cereal/AirbnbCereal-Bold.ttf');
 }
@@ -11,14 +11,19 @@
 @font-face {
     font-family: 'CerealLight';
     src: url('./styles/Cereal/AirbnbCereal-Light.ttf');
-} */
+}
 
 .header {
+    font-family:'CerealBold';
     display: inline-block;
     position:relative;
     margin-right:17px;
     /* padding-left: 13px; */
     /* font-family: 'CerealBold'; */
+}
+
+.review {
+    font-family: 'CerealLight';
 }
 
 .personInfo {
@@ -28,11 +33,13 @@
 }
 
 .username {
-    font-size:17px;
+    font-family:'CerealBook';
+    font-size:16px;
     margin-bottom:-10px;
 }
 
 .date {
+    font-family: 'CerealLight';
     font-size:14px;
 }
 
@@ -60,9 +67,15 @@
     display:inline-block;
 }
 
+.flag {
+    margin-left:585px;
+    margin-top:-60px;
+}
+
 .input {
+    font-family: 'CerealLight';
     display:inline-block;
-    margin-left: 13%;
+    margin-left: 10%;
     padding:7px;
     width: 40%;
 }
@@ -77,7 +90,8 @@
 }
 
 .h4Acc {
-    font-size: 18px;
+    font-family: 'CerealLight';
+    font-size: 16px;
     display:inline-block;
     margin-bottom: -100px;
 }
@@ -88,8 +102,9 @@
 }
 
 .h4Com {
+    font-family: 'CerealLight';
     margin-top:8px;
-    font-size: 18px;
+    font-size: 16px;
     display:inline-block;
     margin-bottom: -100px;
 }
@@ -100,8 +115,9 @@
 }
 
 .h4Clen {
+    font-family: 'CerealLight';
     margin-top:8px;
-    font-size: 18px;
+    font-size: 16px;
     display:inline-block;
 }
 
@@ -119,7 +135,7 @@
 .col2 {
     margin-top:-16px;
     /* margin-top:-10px; */
-    margin-left: 15%;
+    margin-left: 12%;
     display:inline-block;
 }
 
@@ -139,7 +155,8 @@
 }
 
 .h4Loc {
-    font-size: 18px;
+    font-family: 'CerealLight';
+    font-size: 16px;
     display:inline-block;
     margin-bottom: -100px;
 }
@@ -150,8 +167,9 @@
 }
 
 .h4Chec {
+    font-family: 'CerealLight';
     margin-top:8px;
-    font-size: 18px;
+    font-size: 16px;
     display:inline-block;
     margin-bottom: -100px;
 }
@@ -162,8 +180,9 @@
 }
 
 .h4Value {
+    font-family: 'CerealLight';
     margin-top:8px;
-    font-size: 18px;
+    font-size: 16px;
     display:inline-block;
 }
 

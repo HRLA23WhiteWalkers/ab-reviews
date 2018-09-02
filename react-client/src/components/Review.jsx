@@ -18,9 +18,6 @@ class Review extends React.Component {
      }
 
     render(){
-        const background = {
-            border: "solid 3px '#00A699'"
-        }
         return(<div className="d">
             {this.state.reviews.map(review => 
                 <Rev review={review} />

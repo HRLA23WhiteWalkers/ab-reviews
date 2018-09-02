@@ -23,7 +23,7 @@ class Reviews extends React.Component {
     render(){
         return(
             <div className="container">
-                <h2 className="header">{this.state.numReviews} Reviews</h2>
+                <h2 style={{color: '#484848'}} className="header">{this.state.numReviews} Reviews</h2>
                 <Ratings
                 className="header2"
                 rating={this.state.rating}
@@ -44,11 +44,11 @@ class Reviews extends React.Component {
                 {/* <div className="container2" >
                 <div className="sub"> */}
                 <div className="col1">
-                <h4 className="h4Acc">Accuracy</h4>
+                <h4 style={{color: '#484848'}} className="h4Acc">Accuracy</h4>
                 <br/>
-                <h4 className="h4Com">Communication</h4>
+                <h4 style={{color: '#484848'}} className="h4Com">Communication</h4>
                 <br/>
-                <h4 className="h4Clen">Cleanliness</h4>
+                <h4 style={{color: '#484848'}} className="h4Clen">Cleanliness</h4>
                 </div>
 
                 <div className="col2">
@@ -101,11 +101,11 @@ class Reviews extends React.Component {
                 </div>
 
                 <div className="col3">
-                <h4 className="h4Loc">Location</h4>
+                <h4 style={{color: '#484848'}} className="h4Loc">Location</h4>
                 <br/>
-                <h4 className="h4Chec">Check-In</h4>
+                <h4 style={{color: '#484848'}} className="h4Chec">Check-In</h4>
                 <br/>
-                <h4 className="h4Value">Value</h4>
+                <h4 style={{color: '#484848'}} className="h4Value">Value</h4>
                 </div>
 
 
