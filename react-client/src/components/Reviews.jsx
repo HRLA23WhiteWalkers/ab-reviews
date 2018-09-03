@@ -7,16 +7,17 @@ class Reviews extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            reviews: [],
-            rating: 4.5,
-            numReviews: 432,
-            accuracyRating: 4.2,
-            communicationRating:5,
-            cleanlinessRating:5,
-            locationRating:5,
-            checkInRating:5,
-            valueRating:5
+            reviews: this.props.reviews,
+            rating: this.props.total,
+            numReviews: this.props.reviews.length,
+            accuracyRating: this.props.acc,
+            communicationRating: this.props.communication,
+            cleanlinessRating: this.props.cleanliness,
+            locationRating: this.props.location,
+            checkInRating: this.props.checkIn,
+            valueRating: this.props.value
         };
+        setTimeout(() => {console.log(this.props.reviews.length)}, 5000)
     }
 
 

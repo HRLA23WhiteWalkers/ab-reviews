@@ -234,4 +234,9 @@ li {
     border: solid 3px '#00A699';
     border-radius: 50%;
     color:'#00A699';
+    font-family: 'CerealLight';
+}
+
+li {
+    font-family: 'CerealLight';
 }

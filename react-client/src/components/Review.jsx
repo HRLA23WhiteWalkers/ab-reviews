@@ -23,7 +23,7 @@ class Review extends React.Component {
                 <Rev review={review} />
             )}
                 <ul>
-                <li style={{ color: 'white', backgroundColor: '#00A699', border: "solid 10px #00A699", borderWidth: '6px 11px 6px 11px', borderRadius: '100%'  }} className="num">1</li>
+                <li style={{ color: 'white', backgroundColor: '#00A699', border: "solid 10px #00A699", borderWidth: '6px 13px 6px 13px', borderRadius: '100%'  }} className="num">1</li>
                 <li style={{ color: '#00A699' }} className="num">2</li>
                 <li style={{ color: '#00A699' }} className="num">3</li>
                 <li>...</li>

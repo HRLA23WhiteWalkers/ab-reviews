@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/test');
+mongoose.connect('mongodb://localhost/airbnbClone');
 
 var db = mongoose.connection;
 
@@ -11,21 +11,45 @@ db.once('open', function() {
   console.log('mongoose connected successfully');
 });
 
-var itemSchema = mongoose.Schema({
-  quantity: Number,
-  description: String
+const reviewsSchema = mongoose.Schema({
+  totalReview: Number,
+  accuracy: Number,
+  communication: Number,
+  cleanliness: Number,
+  location: Number,
+  checkIn: Number,
+  value: Number,
+  username: String,
+  date: Date,
+  img: String,
+  text: String
 });
 
-var Item = mongoose.model('Item', itemSchema);
+const Reviews = mongoose.model('Reviews', reviewsSchema);
 
 var selectAll = function(callback) {
-  Item.find({}, function(err, items) {
+  Reviews.find({}, function(err, reviews) {
     if(err) {
       callback(err, null);
     } else {
-      callback(null, items);
+      callback(null, reviews);
     }
   });
 };
+const saveFunc = (obj) => {
+  console.log('obj', obj)
+  new Reviews(obj).save(function(err){
+    if(err){
+      console.log('err', err);
+    } else {
+      console.log('saved successfully')
+    }
+  })
+}
 
-module.exports.selectAll = selectAll;
+module.exports = {
+  db,
+  Reviews,
+  saveFunc, 
+  selectAll
+};
