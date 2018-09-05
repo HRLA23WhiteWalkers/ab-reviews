@@ -22,18 +22,21 @@ class Rev extends React.Component {
     }
 
     render() {
+        var dateMonth = this.state.date.slice(5,7);
+        var newDate = this.state.date.slice(0,4);
+        console.log('new dates', dateMonth, newDate)
         return (<div className="rev">
         {/* {console.log('props in rev ',props)} */}
                 <div className="stuff">
                 <img className="revImg" src={this.state.img} />
                 <div className="personInfo">
                 <h4 style={{color: '#484848'}} className="username">{this.state.username}</h4>
-                <p style={{color: '#484848'}} className="date">{this.state.date}</p>
-                </div>
+                <p style={{color: '#484848'}} className="date">{"March " + newDate}</p>
                 <p className="flag">⚐</p>
                 </div>
+                </div>
                 <p style={{color: '#484848'}} className="review">{this.state.text}</p>
-               <hr style={{color: '#767676'}} />
+               <hr className="hr" style={{color: '#767676'}} />
                 </div>)
     }
 } 

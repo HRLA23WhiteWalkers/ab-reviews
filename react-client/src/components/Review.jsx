@@ -30,12 +30,12 @@ class Review extends React.Component {
                 <Rev review={review} />
             )}
                 <ul>
-                <li style={{ color: 'white', backgroundColor: '#00A699', border: "solid 10px #00A699", borderWidth: '6px 13px 6px 13px', borderRadius: '100%'  }} className="num">1</li>
-                <li style={{ color: '#00A699' }} className="num">2</li>
-                <li style={{ color: '#00A699' }} className="num">3</li>
+                <li style={{ color: 'white', backgroundColor: '#347b8a', border: "solid 10px #347b8a", borderWidth: '6px 13px 6px 13px', borderRadius: '100%'  }} className="num">1</li>
+                <li style={{ color: '#347b8a' }} className="num">2</li>
+                <li style={{ color: '#347b8a' }} className="num">3</li>
                 <li>...</li>
-                <li style={{ color: '#00A699' }} className="num">{this.state.reviewNum}</li>
-                <li style={{ color: '#00A699', border: "solid 1px #00A699", borderRadius: '100%', padding: '5px 10px 5px 10px' }} >></li>
+                <li style={{ color: '#347b8a' }} className="num">{this.state.reviewNum}</li>
+                <li style={{ color: '#347b8a', border: "solid 1px #347b8a", borderRadius: '100%', padding: '5px 10px 5px 10px' }} >></li>
                 </ul>
         </div>)
     }

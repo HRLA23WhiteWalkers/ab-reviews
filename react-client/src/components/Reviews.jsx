@@ -48,16 +48,16 @@ class Reviews extends React.Component {
                 rating={this.state.rating}
                 svgIconPaths='M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z'
                 svgIconViewBoxes="0 0 576 512"
-                widgetSpacings="3px"
+                widgetSpacings="3.2px"
                 >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="18px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="18px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="18px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="18px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="18px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="19px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="19px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="19px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="19px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="19px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 <input className ="input" type="text" placeholder="&#x1F50D;Search reviews" />
-                <hr className="hr" />
+                <hr className="hr2" />
 
                 
                 {/* <div className="container2" >
@@ -78,11 +78,11 @@ class Reviews extends React.Component {
                 svgIconViewBoxes="0 0 576 512"
                 widgetSpacings="2px"
                  >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 </div>
                 <br/>
@@ -94,11 +94,11 @@ class Reviews extends React.Component {
                 svgIconViewBoxes="0 0 576 512"
                 widgetSpacings="2px"
                  >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 </div>
                 <br/>
@@ -110,11 +110,11 @@ class Reviews extends React.Component {
                 svgIconViewBoxes="0 0 576 512"
                 widgetSpacings="2px"
                  >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 </div>
                 </div>
@@ -122,7 +122,7 @@ class Reviews extends React.Component {
                 <div className="col3">
                 <h4 style={{color: '#484848'}} className="h4Loc">Location</h4>
                 <br/>
-                <h4 style={{color: '#484848'}} className="h4Chec">Check-In</h4>
+                <h4 style={{color: '#484848'}} className="h4Chec">Check-in</h4>
                 <br/>
                 <h4 style={{color: '#484848'}} className="h4Value">Value</h4>
                 </div>
@@ -136,11 +136,11 @@ class Reviews extends React.Component {
                 svgIconViewBoxes="0 0 576 512"
                 widgetSpacings="2px"
                  >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 </div>
                 <br/>
@@ -152,11 +152,11 @@ class Reviews extends React.Component {
                 svgIconViewBoxes="0 0 576 512"
                 widgetSpacings="2px"
                  >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 </div>
                 <br/>
@@ -168,11 +168,11 @@ class Reviews extends React.Component {
                 svgIconViewBoxes="0 0 576 512"
                 widgetSpacings="2px"
                  >
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
-                <Ratings.Widget widgetSpacings="5px" widgetDimension="15px" widgetRatedColor="#00A699" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
+                <Ratings.Widget widgetSpacings="5px" widgetDimension="17px" widgetRatedColor="#347b8a" />
                 </Ratings>
                 </div>
                 </div>

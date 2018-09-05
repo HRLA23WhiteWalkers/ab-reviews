@@ -13,29 +13,42 @@
     src: url('./styles/Cereal/AirbnbCereal-Light.ttf');
 }
 
+/* @font-face {
+    font-family: 'cerealMedium';
+    src: url('./Cereal/AirbnbCereal-Medium.ttf')
+} */
+
 .header {
     font-family:'CerealBold';
     display: inline-block;
     position:relative;
     margin-right:17px;
+    font-size:23px;
+    margin-bottom:15px;
     /* padding-left: 13px; */
     /* font-family: 'CerealBold'; */
 }
 
 .review {
     font-family: 'CerealLight';
+    font-size:16px;
 }
 
 .personInfo {
     margin-top: -70px;
     margin-left:65px;
-    margin-bottom:-13px;
+    margin-bottom:5px;
 }
 
 .username {
     font-family:'CerealBook';
     font-size:16px;
-    margin-bottom:-10px;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+
+.rev {
+    margin-top:50px;
 }
 
 .date {
@@ -45,15 +58,18 @@
 
 .revImg {
     /* display:inline-block; */
-    height: 50px;
-    width:50px;
+    margin-top:-190px;
+    margin-bottom:15px;
+    height: 45px;
+    width:45px;
     border-radius: 50%;
 }
 
 .stuff {
-    margin-top:7px;
+    /* margin-top:27px; */
     display: inline-block;
-    margin-bottom:2px;
+    margin-bottom:12px;
+    margin-top:30px;
 }
 
 .header2 {
@@ -61,6 +77,7 @@
     position: relative;
     display: inline-block;  */
     margin-left:40px; 
+    margin-bottom:15px;
 }
 
 .header {
@@ -68,16 +85,23 @@
 }
 
 .flag {
-    margin-left:585px;
-    margin-top:-60px;
+    display: inline-block;
+    position:absolute;
+    margin-left:41%;
+    margin-top:-35px;
+    font-size:20px;
+    color:#6d6c6c;
 }
 
 .input {
-    font-family: 'CerealLight';
+    font-family: 'CerealBook';
+    font-size:10px;
     display:inline-block;
-    margin-left: 10%;
+    margin-left: 31%;
     padding:7px;
-    width: 40%;
+    width: 25.5%;
+    margin-bottom:15px;
+
 }
 
 .container {
@@ -86,18 +110,31 @@
 }
 
 .hr {
-    margin-top:6px;
+    margin-top:22px;
+    margin-bottom: -15px;
+    height: 1px;
+    border: 0;
+    border-top: 1.3px solid #eee;
+    color: #6d6c6c;
+}
+
+.hr2 {
+    margin-top: 13px;
+    height: 1px;
+    border: 0;
+    border-top: 1.3px solid #eee;
+    color: #6d6c6c;
 }
 
 .h4Acc {
     font-family: 'CerealLight';
     font-size: 16px;
     display:inline-block;
-    margin-bottom: -100px;
+    margin-bottom: 10px;
 }
 
 .Accuracy {
-    margin-bottom :10px;
+    margin-bottom :15px;
     display:inline-block;
 }
 
@@ -106,11 +143,11 @@
     margin-top:8px;
     font-size: 16px;
     display:inline-block;
-    margin-bottom: -100px;
+    margin-bottom: 10px;
 }
 
 .Communication {
-    margin-bottom:10px;
+    margin-bottom:15px;
     display:inline-block;
 }
 
@@ -119,6 +156,7 @@
     margin-top:8px;
     font-size: 16px;
     display:inline-block;
+    margin-bottom: 10px;
 }
 
 .Cleanliness {
@@ -127,30 +165,30 @@
 }
 
 .col1 {
-    margin-top:-16px;
+    margin-top:5px;
     display: inline-block;
     text-align:left;
 }
 
 .col2 {
-    margin-top:-16px;
+    margin-top:5px;
     /* margin-top:-10px; */
-    margin-left: 12%;
+    margin-left: 16%;
     display:inline-block;
 }
 
 .col3 {
-    margin-top:-16px;
-    margin-left:4%;
+    margin-top:5px;
+    margin-left:7%;
     display: inline-block;
     text-align:left;
 
 }
 
 .col4 {
-    margin-top:-16px;
+    margin-top:5px;
     /* margin-top:-10px; */
-    margin-left: 17%;
+    margin-left: 20%;
     display:inline-block;
 }
 
@@ -158,11 +196,11 @@
     font-family: 'CerealLight';
     font-size: 16px;
     display:inline-block;
-    margin-bottom: -100px;
+    margin-bottom: 10px;
 }
 
 .Location {
-    margin-bottom :10px;
+    margin-bottom :15px;
     display:inline-block;
 }
 
@@ -171,11 +209,11 @@
     margin-top:8px;
     font-size: 16px;
     display:inline-block;
-    margin-bottom: -100px;
+    margin-bottom: 10px;
 }
 
 .Check-in {
-    margin-bottom:10px;
+    margin-bottom:15px;
     display:inline-block;
 }
 
@@ -196,12 +234,12 @@
 }
 
 .revlist {
-    margin-top:-26px;
+    margin-top:-6px;
     display:inline-block;
-    width:42.2%;
+    width:48%;
+    margin-left:25.5%;
+    /* align: center;
     margin-left:29%;
-    /* align: center; */
-    /* margin-left:29%;
     margin-right:29%; */
 }
 
@@ -217,7 +255,9 @@ ul li {
 }
 
 ul {
-    margin-left: -80px;
+    margin-top:40px;
+    margin-bottom:25px;
+    margin-left: -7.5%;
     color: '#00A699';
 }
 
