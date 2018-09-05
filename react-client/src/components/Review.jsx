@@ -6,20 +6,27 @@ class Review extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            reviews: ['asdf','asdf','asdf','asdf','asdf','asdf','asdf'],
-            reviewNum: 0
+            totalReviews: ['asdf','asdf','asdf','asdf','asdf','asdf','asdf'],
+            reviewNum: 0,
+            firstSliceIndex:0,
+            secondSliceIndex: 7
             
         }
     }
-     componentDidMount(){
-         let totalReviews = this.state.reviews.length / 7;
-         totalReviews = Math.round(totalReviews);
-         this.setState({reviewNum:totalReviews});
-     }
+
+    componentWillReceiveProps(props){
+        let totalReviews = props.reviews.length / 7;
+        totalReviews = Math.round(totalReviews);
+        this.setState({reviewNum:totalReviews});
+        this.setState({
+            totalReviews: props.reviews
+        });
+    }
 
     render(){
+        var renderReviews = this.state.totalReviews.slice(this.state.firstSliceIndex,this.state.secondSliceIndex);
         return(<div className="d">
-            {this.state.reviews.map(review => 
+            {renderReviews.map(review => 
                 <Rev review={review} />
             )}
                 <ul>

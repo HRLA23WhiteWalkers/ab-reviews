@@ -48,7 +48,6 @@ class App extends React.Component {
         };
 
         for(var i = 0; i < data.length; i++){
-
           obj.totalReview.push(data[i].totalReview);
           obj.accuracy.push(data[i].accuracy);
           obj.communication.push(data[i].communication);
@@ -67,15 +66,15 @@ class App extends React.Component {
 
         this.setState({
           items: data,
-          totalReview: (obj.totalReview + 2).toFixed(2),
-          accuracy: (obj.accuracy + 2).toFixed(2),
-          communication: (obj.communication + 2).toFixed(2),
-          cleanliness: (obj.cleanliness + 2).toFixed(2),
-          location: (obj.location + 2).toFixed(2),
-          checkIn: (obj.checkIn + 2).toFixed(2),
-          value: (obj.value + 2).toFixed(2)
+          totalReview: Number((obj.totalReview + 2).toFixed(1)),
+          accuracy: Number((obj.accuracy + 2).toFixed(1)),
+          communication: Number((obj.communication + 2).toFixed(1)),
+          cleanliness: Number((obj.cleanliness + 2).toFixed(1)),
+          location: Number((obj.location + 2).toFixed(1)),
+          checkIn: Number((obj.checkIn + 2).toFixed(1)),
+          value: Number((obj.value + 2).toFixed(1))
         })
-        setTimeout(() => {console.log(this.state)},5000);
+        setTimeout(() => {console.log('state in index ',this.state)},3000);
       },
       error: (err) => {
         console.log('err', err);
@@ -86,10 +85,11 @@ class App extends React.Component {
   render () {
     return (<div>
               <div className="revlist" >
-        <Reviews reviews={this.state.items} 
+              {console.log('in render index ',this.state)}
+        <Reviews reviews={this.state.items.length} 
         total={this.state.totalReview} 
         acc={this.state.accuracy} 
-        communication={this.state.totalReview}
+        communication={this.state.communication}
         cleanliness={this.state.cleanliness}
         location={this.state.location}
         checkIn={this.state.checkIn}

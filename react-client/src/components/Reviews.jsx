@@ -7,18 +7,36 @@ class Reviews extends React.Component {
     constructor(props){
         super(props);
         this.state = {
-            reviews: this.props.reviews,
-            rating: this.props.total,
-            numReviews: this.props.reviews.length,
-            accuracyRating: this.props.acc,
-            communicationRating: this.props.communication,
-            cleanlinessRating: this.props.cleanliness,
-            locationRating: this.props.location,
-            checkInRating: this.props.checkIn,
-            valueRating: this.props.value
-        };
-        setTimeout(() => {console.log(this.props.reviews.length)}, 5000)
+            reviews: [],
+            rating: 0,
+            numReviews: 0,
+            accuracyRating: 0,
+            communicationRating: 0,
+            cleanlinessRating: 0,
+            locationRating: 0,
+            checkInRating: 0,
+            valueRating: 0
+        }
+
+        setTimeout(() => {console.log('state in reviews: ', this.state, 'props in reviews: ', this.props.value)}, 9000)
     }
+
+    componentWillReceiveProps(nextProps) {
+        console.log('next props ',nextProps)
+        if(this.props != nextProps) {
+          this.setState({
+            reviews: nextProps.reviews,
+            rating: nextProps.total,
+            numReviews: nextProps.reviews,
+            accuracyRating: nextProps.acc,
+            communicationRating: nextProps.communication,
+            cleanlinessRating: nextProps.cleanliness,
+            locationRating: nextProps.location,
+            checkInRating: nextProps.checkIn,
+            valueRating: nextProps.value
+          });
+        }
+      }
 
 
     render(){
