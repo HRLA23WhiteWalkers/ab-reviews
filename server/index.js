@@ -4,6 +4,7 @@ var selectAll = require('../database-mongo').selectAll;
 console.log('items : ',selectAll)
 var app = express();
 
+const port = process.env.PORT || 3001
 
 app.use(express.static(__dirname + '/../react-client/dist'));
 
@@ -18,7 +19,7 @@ app.get('/items', function (req, res) {
   });
 });
 
-app.listen(3001, function() {
-  console.log('listening on port 3001!');
+app.listen(port, function() {
+  console.log(`listening on port ${port}!`);
 });
 
