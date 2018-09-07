@@ -25,7 +25,6 @@ class App extends React.Component {
     $.ajax({
       url: '/items', 
       success: (data) => {
-        console.log('data', data)
         // if(typeof data === 'string'){
         //   data = JSON.parse(data)
         // }
@@ -106,5 +105,5 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'));
-// export default App;
+// ReactDOM.render(<App />, document.getElementById('app'));
+export default App;
