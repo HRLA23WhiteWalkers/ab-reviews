@@ -28,6 +28,7 @@ const reviewsSchema = mongoose.Schema({
 
 const Reviews = mongoose.model('Reviews', reviewsSchema);
 
+
 var selectAll = function(callback) {
   Reviews.find({}, function(err, reviews) {
     if(err) {
@@ -46,6 +47,25 @@ const saveFunc = (obj) => {
       console.log('saved successfully')
     }
   })
+}
+
+
+for(var i = 0; i < 432; i++){
+  const user = {
+      totalReview: Math.floor(Math.random() * Math.floor(6)),
+      accuracy: Math.floor(Math.random() * Math.floor(6)),
+      communication: Math.floor(Math.random() * Math.floor(6)),
+      cleanliness: Math.floor(Math.random() * Math.floor(6)),
+      location: Math.floor(Math.random() * Math.floor(6)),
+      checkIn: Math.floor(Math.random() * Math.floor(6)),
+      value: Math.floor(Math.random() * Math.floor(6)),
+      username: faker.name.findName(),
+      date: faker.date.past(),
+      img: faker.image.avatar(),
+      text: faker.lorem.paragraphs()
+  };
+
+  saveFunc(user);
 }
 
 module.exports = {
