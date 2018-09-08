@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://heroku_1wbgqsjk:acvq699itrk76oh6ui3f26cg7e@ds149742.mlab.com:49742/heroku_1wbgqsjk' ||'mongodb://localhost/airbnbClone');
+mongoose.connect('mongodb://root:@ds149742.mlab.com:49742/heroku_1wbgqsjk' ||'mongodb://localhost/airbnbClone');
 
 var db = mongoose.connection;
 
