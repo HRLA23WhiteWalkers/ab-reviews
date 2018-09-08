@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-var MONGOLAB_URI = 'mongodb://alex:berman@ds149742.mlab.com:49742/airbnbClone';
+var MONGOLAB_URI = 'mongodb://heroku_1wbgqsjk:acvq699itrk76oh6ui3f26cg7e@ds149742.mlab.com:49742/heroku_1wbgqsjk';
 mongoose.connect(MONGOLAB_URI ||'mongodb://localhost/airbnbClone');
 
 var db = mongoose.connection;
