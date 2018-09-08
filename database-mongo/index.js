@@ -1,4 +1,5 @@
 var mongoose = require('mongoose');
+const faker = require('faker');
 var MONGOLAB_URI = 'mongodb://heroku_1wbgqsjk:acvq699itrk76oh6ui3f26cg7e@ds149742.mlab.com:49742/heroku_1wbgqsjk';
 mongoose.connect(MONGOLAB_URI ||'mongodb://localhost/airbnbClone');
 
