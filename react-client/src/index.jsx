@@ -26,9 +26,9 @@ class App extends React.Component {
       url: '/items', 
       success: (data) => {
         console.log('data', data)
-        // if(typeof data === 'string'){
-        //   data = JSON.parse(data)
-        // }
+        if(typeof data === 'string'){
+          data = JSON.parse(data)
+        }
         data = data.concat(data[0],data[1],data[2],data[3], data[4])
         console.log('data post concat',typeof data);
         var add = (arr) => {

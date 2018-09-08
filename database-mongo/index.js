@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-const faker = require('faker');
+// const faker = require('faker');
 var MONGOLAB_URI = 'mongodb://heroku_1wbgqsjk:acvq699itrk76oh6ui3f26cg7e@ds149742.mlab.com:49742/heroku_1wbgqsjk';
 mongoose.connect(MONGOLAB_URI ||'mongodb://localhost/airbnbClone');
 
@@ -51,23 +51,23 @@ const saveFunc = (obj) => {
 }
 
 
-for(var i = 0; i < 432; i++){
-  const user = {
-      totalReview: Math.floor(Math.random() * Math.floor(6)),
-      accuracy: Math.floor(Math.random() * Math.floor(6)),
-      communication: Math.floor(Math.random() * Math.floor(6)),
-      cleanliness: Math.floor(Math.random() * Math.floor(6)),
-      location: Math.floor(Math.random() * Math.floor(6)),
-      checkIn: Math.floor(Math.random() * Math.floor(6)),
-      value: Math.floor(Math.random() * Math.floor(6)),
-      username: faker.name.findName(),
-      date: faker.date.past(),
-      img: faker.image.avatar(),
-      text: faker.lorem.paragraphs()
-  };
+// for(var i = 0; i < 432; i++){
+//   const user = {
+//       totalReview: Math.floor(Math.random() * Math.floor(6)),
+//       accuracy: Math.floor(Math.random() * Math.floor(6)),
+//       communication: Math.floor(Math.random() * Math.floor(6)),
+//       cleanliness: Math.floor(Math.random() * Math.floor(6)),
+//       location: Math.floor(Math.random() * Math.floor(6)),
+//       checkIn: Math.floor(Math.random() * Math.floor(6)),
+//       value: Math.floor(Math.random() * Math.floor(6)),
+//       username: faker.name.findName(),
+//       date: faker.date.past(),
+//       img: faker.image.avatar(),
+//       text: faker.lorem.paragraphs()
+//   };
 
-  saveFunc(user);
-}
+//   saveFunc(user);
+// }
 
 module.exports = {
   db,
